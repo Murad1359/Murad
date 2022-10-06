@@ -1,0 +1,70 @@
+body {
+  margin: 0 auto;
+}
+
+:root {
+  --mycolor: #ffd500;
+  --fl: left;
+  --mb: border-box;
+}
+
+.main {
+  width: 800px;
+  min-height: 600px;
+  background: white;
+  float: var(--fl);
+  font-size: 20px;
+  box-sizing: var(--mb);
+}
+.header {
+  width: 800px;
+  min-height: 70px;
+  background: var(--mycolor);
+  float: var(--fl);
+  margin-bottom: 15px;
+  padding: 15px;
+  box-sizing: var(--mb);
+}
+.center {
+  width: 800px;
+  min-height: 460px;
+  background: white;
+  float: left;
+  box-sizing: var(--mb);
+}
+
+.footer {
+  width: 800px;
+  min-height: 70px;
+  background: var(--mycolor);
+  float: left;
+  margin-top: 15px;
+  box-sizing: var(--mb);
+  padding: 15px;
+}
+
+.nav {
+  width: 200px;
+  min-height: inherit;
+  background: var(--mycolor);
+  float: left;
+  box-sizing: var(--mb);
+  padding: 15px;
+}
+.active {
+  width: 470px;
+  min-height: inherit;
+  background: var(--mycolor);
+  float: left;
+  margin: 0px 15px;
+  box-sizing: var(--mb);
+  padding: 15px;
+}
+.ads {
+  width: 100px;
+  min-height: inherit;
+  background: var(--mycolor);
+  float: left;
+  box-sizing: var(--mb);
+  padding: 15px;
+}
